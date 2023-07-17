@@ -14,7 +14,7 @@ function Dashboard (){
         <>
     <Navbar />
     
-            <section className=" container grid grid-cols-1 md:grid-cols-2 gap-12 mt-3 md:mt-12 p-4 pt-4">
+            <section className= "container grid grid-cols-1 md:grid-cols-2 gap-12 mt-3 md:mt-12 p-4 pt-4">
                     <div className=" text-white  mb-5">
                        <h1 className=" text-5xl md:text-7xl md:font-bold">Bring the Power of AI to your conversation</h1> 
 
@@ -22,14 +22,14 @@ function Dashboard (){
                         <h5 className="md:text-2xl  mt-4">Experience the power of AI models with OmniGPT, Our chat platdorm provide seemless communication across multiple channels</h5>
                     
                         <h3 className="text-2xl mt-8">Try OmniGPT for free, 15-day trial, no credit card required</h3>
-                        <button className="btn w-full md:w-2/6 p-2 mt-3 green text-white  text-2ml md:text-1xl">Start your free trial</button>
+                        <button className="btn w-full md:w-2/6 p-2 mt-3 green text-white  text-2ml md:text-1xl">Start your free trial.</button>
                     </div>
                    
                     <div className="ml-0 md:ml-12">
                         <div  className="text-gray-500   grid grid-cols-3 gap-4 text-lg">
                             <div className="p-8 col-span-2 w-full  b-2 rounded-tl-full rounded-bl-full rounded-br-full side1-col relative">
-                            <div class="absolute bottom-0  left-7 right-4 md:left-10">
-                                    <img src={fam} alt= "dfam"></img>
+                            <div class="absolute bottom-0 left-7 right-4 md:left-10">
+                                    <img src={fam} alt= "dfgitm"></img>
                                 </div>
                             </div>
 
