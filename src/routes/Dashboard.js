@@ -13,8 +13,8 @@ function Dashboard (){
     return(
         <>
     <Navbar />
-    
-            <section className= "container grid grid-cols-1 md:grid-cols-2 gap-12 mt-3 md:mt-12 p-4 pt-4">
+    <section className = "container">
+            <section className= " grid  w-6/6   grid-cols-1 md:grid-cols-2 gap-12 mt-3 md:mt-12 p-4 pt-4">
                     <div className=" text-white  mb-5">
                        <h1 className=" text-5xl md:text-7xl md:font-bold">Bring the Power of AI to your conversation</h1> 
 
@@ -26,7 +26,7 @@ function Dashboard (){
                     </div>
                    
                     <div className="ml-0 md:ml-12">
-                        <div  className="text-gray-500   grid grid-cols-3 gap-4 text-lg">
+                        <div  className="text-gray-500  text-center grid grid-cols-3 gap-4 text-lg">
                             <div className="p-8 col-span-2 w-full  b-2 rounded-tl-full rounded-bl-full rounded-br-full side1-col relative">
                             <div class="absolute bottom-0 left-7 right-4 md:left-10">
                                     <img src={fam} alt= "dfgitm"></img>
@@ -75,7 +75,7 @@ function Dashboard (){
 
                     </div>
             </section>
-            <section className=" container grid grid-cols-1 md:grid-cols-2 gap-12 mt-3 md:mt-12 p-4 pt-4">
+            <section className="  grid grid-cols-1 md:grid-cols-2 gap-12 mt-3 md:mt-12 p-4 pt-4">
                 <div className="text-center relate">  
                     <img src={phone} alt= "dfam" className="w-full h-full m-12 ">
                         
@@ -90,6 +90,7 @@ function Dashboard (){
                         </div>
                 </div>
                 <div className="text-center">ssfs</div>
+            </section>
             </section>
         </>
     );
