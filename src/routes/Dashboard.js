@@ -13,7 +13,7 @@ function Dashboard (){
     return(
         <>
     <Navbar />
-    <section className = "container">
+    <section className = "container mx-30">
             <section className= " grid  w-6/6   grid-cols-1 md:grid-cols-2 gap-12 mt-3 md:mt-12 p-4 pt-4">
                     <div className=" text-white  mb-5">
                        <h1 className=" text-5xl md:text-7xl md:font-bold">Bring the Power of AI to your conversation</h1> 
