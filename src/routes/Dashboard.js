@@ -13,7 +13,7 @@ function Dashboard (){
     return(
         <>
     <Navbar />
-    <section className = " mx-28">
+    <section className = " container">
             <section className= " grid  w-6/6   grid-cols-1 md:grid-cols-2 gap-12 mt-3 md:mt-12 p-4 pt-4">
                     <div className=" text-white  mb-5">
                        <h1 className=" text-5xl md:text-7xl md:font-bold">Bring the Power of AI to your conversation</h1> 
@@ -25,9 +25,9 @@ function Dashboard (){
                         <button className="btn w-full md:w-2/6 p-2 mt-3 green text-white  text-2ml md:text-1xl">Start your free trial.</button>
                     </div>
                    
-                    <div className="ml-0 md:ml-12">
-                        <div  className="text-gray-500  text-center grid grid-cols-3 gap-4 text-lg">
-                            <div className="p-8 col-span-2 w-full  b-2 rounded-tl-full rounded-bl-full rounded-br-full side1-col relative">
+                    <div className="ml-0 md:ml-12 w-5/6">
+                        <div  className="text-gray-500  text-center grid grid-cols-5 gap-4 text-lg">
+                            <div className="p-8 col-span-4 w-full  b-2 rounded-tl-full rounded-bl-full rounded-br-full side1-col relative">
                             <div class="absolute bottom-0 left-7 right-4 md:left-10">
                                     <img src={fam} alt= "dfgitm"></img>
                                 </div>
@@ -42,14 +42,14 @@ function Dashboard (){
                         </div>
 
                         
-                        <div  className="text-gray-500 hidden md:grid mt-5 gap-4 grid-cols-3 text-lg">
+                        <div  className="text-gray-500  hidden md:grid mt-5 gap-4 grid-cols-5 text-lg">
                                 <div
-                                        class="md:w-24 md:h-24 w-18 h-18 col-span-1 rounded-full 
+                                        class="md:w-24 md:h-24 w-18 h-18  rounded-full 
                                         inline-flex items-center green justify-center 
                                         font-bold">
-                                        <i className =" text-7xl fa fa-arrow-up  rotate-45 text-white"></i>
+                                        <i className ="text-7xl fa fa-arrow-up  rotate-45 text-white"></i>
                                 </div>
-                                <div className="p-8 ml-0 rounded-full col-span-2 inline-flex bg-gray-100 relative">
+                                <div className="p-8 rounded-full  inline-flex col-span-4 bg-gray-100 relative">
                                 <div class="absolute bottom-0 left-7 right-4 md:left-10">
                                     <img src={high} alt= "dfam"></img>
                                 </div>
@@ -57,11 +57,12 @@ function Dashboard (){
                         </div>
 
                         <div  className="text-gray-500 hidden md:grid  mt-5 grid grid-cols-1 text-lg">
-                            <div className="p-8  rounded-tl-full rounded-tr-full rounded-br-full  text-center side2-col "> </div>   
+                            <div className="p-8  rounded-tl-full rounded-tr-full rounded-br-full text-white  text-center side2-col ">
+                                <h4 className = "ml-32"> <b>@OmniGPT</b> can you give us an update on the latest project status?</h4></div>   
                         </div>
 
-                        <div  className="text-gray-500 hidden md:grid mt-5 grid grid-cols-3 gap-3 text-lg ">
-                            <div className="p-8  rounded-tl-full rounded-bl-full rounded-br-full col-span-2 green relative">
+                        <div  className="text-gray-500 hidden md:grid mt-5 grid grid-cols-5 gap-3 text-lg ">
+                            <div className="p-8  rounded-tl-full rounded-bl-full rounded-br-full col-span-4 green relative">
                                 <div class="absolute bottom-0  left-7 right-4 md:left-10">
                                     <img src={sit} alt= "dfam"></img>
                                 </div></div>
@@ -80,13 +81,13 @@ function Dashboard (){
                     <img src={phone} alt= "dfam" className="w-full h-full m-12 ">
                         
                     </img> 
-                    <div className="md:w-24 md:h-24 w-18 h-18 rounded-full bg-white col-span-2 white abso">
+                    <div className="md:w-32 md:h-32 w-18 h-18 rounded-full bg-white col-span-2 white abso">
                         </div>
-                        <div className="md:w-24 md:h-24 w-18 h-18   rounded-full bg-white col-span-2 white abso2 ">
+                        <div className="md:w-24 md:h-24 w-18 h-18  rounded-tl-full rounded-br-full rounded-tr-full green col-span-2 white abso2 ">
                         </div>
-                        <div className="md:w-24 md:h-24 w-18 h-18   rounded-full bg-white col-span-2 white abso3 ">
+                        <div className="md:w-24 md:h-24 w-18 h-18   rounded-tl-full rounded-br-full rounded-tr-full side1-col col-span-2 white abso3 ">
                         </div>
-                        <div className=" md:w-24 md:h-24 w-18 h-18 rounded-full col-span-2 green abso4 ">
+                        <div className=" md:w-32 md:h-32 w-18 h-18 rounded-full green col-span-2 white abso4 ">
                         </div>
                 </div>
                 <div className="text-center">ssfs</div>

@@ -24,7 +24,8 @@ position: relative
 .abso{
     position: absolute;
     top: 130px;
-    left: 150px
+    left: 150px;
+    z-index: -1
     }
     .abso2{
         position: absolute;
