@@ -17,7 +17,7 @@ const Navbar = () => {
    
         <nav className="nav">
             <h2 className="nav-logo">
-              omnigpt <i className="fa fa-arrow-up heart" ></i> 
+              <b style = {name ?{color: "rgb(22, 22, 37)"}: {color: "white"}}>omnigpt</b> <i className="fa fa-arrow-up heart" ></i> 
             </h2>
 
             <div className="menu-icon" onClick={handleClick}>

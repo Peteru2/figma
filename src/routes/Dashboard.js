@@ -65,7 +65,8 @@ function Dashboard (){
                             <div className="p-8  rounded-tl-full rounded-bl-full rounded-br-full col-span-4 green relative">
                                 <div class="absolute bottom-0  left-7 right-4 md:left-10">
                                     <img src={sit} alt= "dfam"></img>
-                                </div></div>
+                                </div>
+                                </div>
                             <div
                                 class="md:w-24 md:h-24 w-18 h-18 rounded-tl-full rounded-tr-full side1-col rounded-br-full 
                                 inline-flex items-center  justify-center 
@@ -78,10 +79,10 @@ function Dashboard (){
             </section>
             <section className="  grid grid-cols-1 md:grid-cols-2 gap-12 mt-3 md:mt-12 p-4 pt-4">
                 <div className="text-center relate">  
-                    <img src={phone} alt= "dfam" className="w-full h-full m-12 ">
+                    {/* <img src={phone} alt= "dfam" className="w-full h-full m-12 ">
                         
-                    </img> 
-                    <div className="md:w-32 md:h-32 w-18 h-18 rounded-full bg-white col-span-2 white abso">
+                    </img>  */}
+                    <div className="md:w-32 md:h-32  rounded-full bg-white col-span-2 white abso">
                         </div>
                         <div className="md:w-24 md:h-24 w-18 h-18  rounded-tl-full rounded-br-full rounded-tr-full green col-span-2 white abso2 ">
                         </div>
