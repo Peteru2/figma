@@ -5,6 +5,12 @@ import fam from "../family2.png"
 import high from "../highfive2.png"
 import sit from "../sitting.png"
 import phone from "../phone.png"
+import whatsapp from "../whatsapp.png"
+import messenger from "../message.png"
+import handshake from "../handshake.png"
+
+
+
 
 
 
@@ -82,8 +88,12 @@ function Dashboard (){
                 <div className="text-center relate">  
                     <img src={phone} alt= "dfam" className = " w-full h-full " />
                          
-                        <div className="w-32 h-32  rounded-full bg-white col-span-2 text-black text-center align-center justify-center white abso">
-                                <i className = "fab fa-facebook text-black w-2"></i>
+                        <div className="w-32 h-32 border-2 rounded-full bg-white col-span-2 text-black text-center align-center justify-items-center justify-center white abso">
+                                {/* <i className = "fab fa-facebook text-black img-icon mt-12"></i>
+                                 */}
+                                 
+                                 <img src={messenger}  className ="mt-4 ml-7 w-16"alt= "dfam"></img>
+                                   
                         </div>
                         <div className=" w-32 h-32 rounded-tl-full rounded-br-full rounded-tr-full green col-span-2 white abso2 ">
 
@@ -91,8 +101,8 @@ function Dashboard (){
                         <div className="w-24 h-24    rounded-tl-full rounded-br-full rounded-tr-full side1-col col-span-2 white abso3 ">
 
                         </div>
-                        <div className=" w-32 h-32  rounded-full green col-span-2 white abso4 ">
-                        <i className = "fab fa-facebook text-black w-2"></i>
+                        <div className=" w-32 h-32 text-center rounded-full green col-span-2 white abso4 ">
+                        <img src={whatsapp}  className ="mt-4 ml-6 w-20"alt= "dfam"></img>
                             
                         </div>
 
@@ -104,7 +114,7 @@ function Dashboard (){
                             <h3>Consider this simplified example involving two threads, Thread 1 and Thread 2, accessing a shared variable :</h3>                    
     
                         </div>
-                        <div className = "hidden md:grid"><i className = "fab fa-facebook text-black "></i></div>
+                        <div className = "hidden md:grid green m-2 p-2 rounded"><img src={handshake}  className =" text-white w-24"alt= "dfam"></img></div>
                     </div>
                     <div className = "">
                     <div className ="bg-gray-700 p-3 mt-3 w-full rounded"><h3>Multi-Channel Support</h3></div>
