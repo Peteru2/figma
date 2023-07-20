@@ -18,27 +18,35 @@
 .green{
     background-color: rgb(98, 207, 98);
 }
+.text-gre{
+    color: rgb(98, 207, 98);
+}
 .relate{
 position: relative
 }
-.abso{
-    position: absolute;
-    top: 130px;
-    left: 150px;
-    z-index: -1
-    }
+    .abso{
+        position: absolute;
+        top: 13%;
+        left: 19%;
+        }
+
     .abso2{
         position: absolute;
-        top: 500px;
-        left: 150px
+        top: 60%;
+        left: 20%;
+        z-index: -1
         }
+
      .abso3{
         position: absolute; 
-        top: 130px;
-        right: 90px
-            }
-.abso4{
-position: absolute;
-top: 500px;
-right: 90px
-}
+        top: 23%;
+        right: 18%;
+        z-index: -1
+
+        }
+
+    .abso4{
+    position: absolute;
+    top: 68%;
+    right: 19%
+    }

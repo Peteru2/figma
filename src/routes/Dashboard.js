@@ -14,6 +14,7 @@ function Dashboard (){
         <>
     <Navbar />
     <section className = " container">
+        
             <section className= " grid  w-6/6   grid-cols-1 md:grid-cols-2 gap-12 mt-3 md:mt-12 p-4 pt-4">
                     <div className=" text-white  mb-5">
                        <h1 className=" text-5xl md:text-7xl md:font-bold">Bring the Power of AI to your conversation</h1> 
@@ -27,7 +28,7 @@ function Dashboard (){
                    
                     <div className="ml-0 md:ml-12 w-5/6">
                         <div  className="text-gray-500  text-center grid grid-cols-5 gap-4 text-lg">
-                            <div className="p-8 col-span-4 w-full  b-2 rounded-tl-full rounded-bl-full rounded-br-full side1-col relative">
+                            <div className="p-8 col-span-4 col-start-1 w-full  b-2 rounded-tl-full rounded-bl-full rounded-br-full side1-col relative">
                             <div class="absolute bottom-0 left-7 right-4 md:left-10">
                                     <img src={fam} alt= "dfgitm"></img>
                                 </div>
@@ -77,21 +78,41 @@ function Dashboard (){
 
                     </div>
             </section>
-            <section className="  grid grid-cols-1 md:grid-cols-2 gap-12 mt-3 md:mt-12 p-4 pt-4">
+            <section className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-3 md:mt-12  pt-4">
                 <div className="text-center relate">  
-                    <img src={phone} alt= "dfam" className="w-full h-full m-12 ">
-                        
-                    </img> 
-                        <div className="md:w-32 md:h-32  rounded-full bg-white col-span-2 white abso">
+                    <img src={phone} alt= "dfam" className = " w-full h-full " />
+                         
+                        <div className="w-32 h-32  rounded-full bg-white col-span-2 text-black text-center align-center justify-center white abso">
+                                <i className = "fab fa-facebook text-black w-2"></i>
                         </div>
-                        <div className="md:w-24 md:h-24 w-18 h-18  rounded-tl-full rounded-br-full rounded-tr-full green col-span-2 white abso2 ">
+                        <div className=" w-32 h-32 rounded-tl-full rounded-br-full rounded-tr-full green col-span-2 white abso2 ">
+
                         </div>
-                        <div className="md:w-24 md:h-24 w-18 h-18   rounded-tl-full rounded-br-full rounded-tr-full side1-col col-span-2 white abso3 ">
+                        <div className="w-24 h-24    rounded-tl-full rounded-br-full rounded-tr-full side1-col col-span-2 white abso3 ">
+
                         </div>
-                        <div className=" md:w-32 md:h-32 w-18 h-18 rounded-full green col-span-2 white abso4 ">
+                        <div className=" w-32 h-32  rounded-full green col-span-2 white abso4 ">
+                        <i className = "fab fa-facebook text-black w-2"></i>
+                            
                         </div>
+
                 </div>
-                <div className="text-center">ssfs</div>
+                <div className="grid">
+                    <h5 className = "text-5xl m-2">The <b className = "text-gre ">All-in-One</b> Solution for conventional AI</h5>
+                    <div className = "bg-white mt-4 rounded p-3 grid  grid-cols-1 justify-center md:grid-cols-5 text-black">
+                        <div className = "col-span-4"><h2 className ="mb-2"><b>Lorem80ajdsjkasjd js</b></h2>
+                            <h3>Consider this simplified example involving two threads, Thread 1 and Thread 2, accessing a shared variable :</h3>                    
+    
+                        </div>
+                        <div className = "hidden md:grid"><i className = "fab fa-facebook text-black "></i></div>
+                    </div>
+                    <div className = "">
+                    <div className ="bg-gray-700 p-3 mt-3 w-full rounded"><h3>Multi-Channel Support</h3></div>
+                    <div className ="bg-gray-700 p-3 mt-3 rounded"><h3>AI-Powered Assistant</h3></div>
+                    <div className ="bg-gray-700 p-3 mt-3 rounded"><h3>Easy to Use</h3></div>
+                    </div>
+
+                </div>
             </section>
             </section>
         </>
