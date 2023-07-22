@@ -21,8 +21,8 @@ function Dashboard (){
     <Navbar />
     <section className = " container">
         
-            <section className= " grid  w-6/6   grid-cols-1 md:grid-cols-2 gap-12 mt-3 md:mt-12 p-2 md:p-8 pt-4">
-                    <div className=" text-white  mb-5">
+            <section className= " grid  w-6/6 box  grid-cols-1 md:grid-cols-2 gap-12 mt-3 md:mt-12 p-3 md:p-8 pt-4">
+                    <div className=" text-white A  mb-5">
                        <h1 className=" text-4xl md:text-7xl md:font-bold">Bring the Power of AI to your conversation</h1> 
 
                         <h3 className="md:text-3xl text-3xl mt-4">Work Faster, Smarter and Better Together</h3>
@@ -32,7 +32,7 @@ function Dashboard (){
                         <button className="btn w-full md:w-2/6 p-2 mt-3 green text-white  text-2ml md:text-1xl">Start your free trial.</button>
                     </div>
                    
-                    <div className="ml-0 md:ml-12 w-5/6">
+                    <div className="ml-0 md:ml-12 B w-5/6">
                         <div  className="text-gray-500  text-center grid grid-cols-5 gap-4 text-lg">
                             <div className="p-8 col-span-4 col-start-1 w-full  b-2 rounded-tl-full rounded-bl-full rounded-br-full side1-col relative">
                             <div class="absolute bottom-0 left-7 right-4 md:left-10">
@@ -41,7 +41,7 @@ function Dashboard (){
                             </div>
 
                             <div
-                                class="md:w-24 md:h-24 w-20 h-20 rounded-full 
+                                class="md:w-24 md:h-24 w-32 h-32 rounded-full 
                                 inline-flex items-center side2-col justify-center 
                                 ">
                                 <i className =" text-7xl fa fa-arrow-left  rotate-45 text-white   "></i>
@@ -84,8 +84,8 @@ function Dashboard (){
 
                     </div>
             </section>
-            <section className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-3 md:mt-12  p-2 md:p-8 pt-4">
-                <div className="text-center relate">  
+            <section className="grid grid-cols-1 md:grid-cols-2 box gap-12 mt-3 md:mt-12  p-3 md:p-8 pt-4">
+                <div className="text-center relate A">  
                     <img src={phone} alt= "dfam" className = " w-full h-full " />
                          
                         <div className="w-32 h-32 border-2 rounded-full bg-white col-span-2 text-black text-center align-center justify-items-center justify-center white abso">
@@ -107,7 +107,7 @@ function Dashboard (){
                         </div>
 
                 </div>
-                <div className="grid">
+                <div className="grid B">
                     <h5 className = "text-5xl m-2">The <b className = "text-gre ">All-in-One</b> Solution for conventional AI</h5>
                     <div className = "bg-white mt-4 rounded md:p-3 p-4 grid  grid-cols-1 justify-center md:grid-cols-5 text-black">
                         <div className = "col-span-4"><h2 className ="my-3 text-2xl"><b>Lorem80ajdsjkasjd js</b></h2>
