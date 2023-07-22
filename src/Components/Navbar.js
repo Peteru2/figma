@@ -16,12 +16,12 @@ const Navbar = () => {
    return (
    
         <nav className="nav">
-            <h2 className="nav-logo">
-              <b style = {name ?{color: "rgb(22, 22, 37)"}: {color: "white"}}>omnigpt</b> <i className="fa fa-arrow-up heart" ></i> 
+            <h2 className="nav-logo" style = {name ?{visibility: "hidden"}: {visibility: "visible"}}>
+              <b >omnigpt</b> <i className="fa fa-arrow-up heart" ></i> 
             </h2>
 
             <div className="menu-icon" onClick={handleClick}>
-                <i className = {name ? "fa fa-times" : "fa fa-bars"} style = {name ?{color: "black"} : {color: "white"}}></i>
+                <i className = {name ? "fa fa-times" : "fa fa-bars"} ></i>
             </div>
 
             <div className = {name ? "nav-menu active":"nav-menu"}>
