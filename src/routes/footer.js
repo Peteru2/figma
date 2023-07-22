@@ -19,7 +19,7 @@ function Footer (){
                 </div>
 
                 <div className = " container py-12 grid grid-cols-2 mt-44 md:grid-cols-4 md:px-0 px-10" >
-                  <div className ="col-span-4  md:my-0 my-20 md:col-span-1">
+                  <div className ="col-span-4  md:my-0 mt-28 mb-4 md:col-span-1">
                     <h2 className="footer-logo">
                     omnigpt<i className="fa fa-arrow-up arrow" ></i> 
                     </h2>
