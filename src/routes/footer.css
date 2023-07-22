@@ -1,0 +1,16 @@
+.footer-logo{
+    color:white;
+    
+    font-size: 28px;
+    position: relative;
+}
+.arrow{
+    font-size: 30px;
+        left:104px;
+    color:rgb(98, 207, 98);
+    position: absolute;
+    rotate: -310deg;
+}
+.text-gre{
+    color: rgb(98, 207, 98);
+}

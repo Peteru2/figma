@@ -8,11 +8,7 @@ import phone from "../phone.png"
 import whatsapp from "../whatsapp.png"
 import messenger from "../message.png"
 import handshake from "../handshake.png"
-
-
-
-
-
+import Footer from "./footer.js"
 
 
 function Dashboard (){
@@ -124,7 +120,10 @@ function Dashboard (){
 
                 </div>
             </section>
+            
             </section>
+            <Footer />
+
         </>
     );
 }
