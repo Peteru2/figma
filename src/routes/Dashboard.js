@@ -21,11 +21,11 @@ function Dashboard (){
     <Navbar />
     <section className = " container">
         
-            <section className= " grid  w-6/6   grid-cols-1 md:grid-cols-2 gap-12 mt-3 md:mt-12 p-4 pt-4">
+            <section className= " grid  w-6/6   grid-cols-1 md:grid-cols-2 gap-12 mt-3 md:mt-12 p-2 md:p-8 pt-4">
                     <div className=" text-white  mb-5">
-                       <h1 className=" text-5xl md:text-7xl md:font-bold">Bring the Power of AI to your conversation</h1> 
+                       <h1 className=" text-4xl md:text-7xl md:font-bold">Bring the Power of AI to your conversation</h1> 
 
-                        <h3 className="md:text-4xl text-3xl mt-4">Work Faster, Smarter and Better Together</h3>
+                        <h3 className="md:text-3xl text-3xl mt-4">Work Faster, Smarter and Better Together</h3>
                         <h5 className="md:text-2xl  mt-4">Experience the power of AI models with OmniGPT, Our chat platdorm provide seemless communication across multiple channels</h5>
                     
                         <h3 className="text-2xl mt-8">Try OmniGPT for free, 15-day trial, no credit card required</h3>
@@ -84,7 +84,7 @@ function Dashboard (){
 
                     </div>
             </section>
-            <section className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-3 md:mt-12  pt-4">
+            <section className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-3 md:mt-12  p-2 md:p-8 pt-4">
                 <div className="text-center relate">  
                     <img src={phone} alt= "dfam" className = " w-full h-full " />
                          
@@ -109,9 +109,9 @@ function Dashboard (){
                 </div>
                 <div className="grid">
                     <h5 className = "text-5xl m-2">The <b className = "text-gre ">All-in-One</b> Solution for conventional AI</h5>
-                    <div className = "bg-white mt-4 rounded p-3 grid  grid-cols-1 justify-center md:grid-cols-5 text-black">
-                        <div className = "col-span-4"><h2 className ="mb-2"><b>Lorem80ajdsjkasjd js</b></h2>
-                            <h3>Consider this simplified example involving two threads, Thread 1 and Thread 2, accessing a shared variable :</h3>                    
+                    <div className = "bg-white mt-4 rounded md:p-3 p-4 grid  grid-cols-1 justify-center md:grid-cols-5 text-black">
+                        <div className = "col-span-4"><h2 className ="my-3 text-2xl"><b>Lorem80ajdsjkasjd js</b></h2>
+                            <h3 className = "font-serif">Consider this simplified example involving two threads, Thread 1 and Thread 2, accessing a shared variable :</h3>                    
     
                         </div>
                         <div className = "hidden md:grid green m-2 p-2 rounded"><img src={handshake}  className =" text-white w-24"alt= "dfam"></img></div>
