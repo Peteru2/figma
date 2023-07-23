@@ -121,11 +121,11 @@ function Dashboard (){
 
                 </div>
             </section>
-            <section className="grid grid-cols-5  gap-12 mt-3 md:mt-12  p-3 md:p-8 pt-4">
+            <div className="grid grid-cols-5  gap-12 mt-3 md:mt-12  p-3 md:p-8 pt-4">
                 <h2 className = "text-3xl md:text-6xl col-span-3 md:col-span-4"> <b>See What People Are <b className = "text-gre ">Saying About Us</b></b></h2>
                 <div className ="ml-0 mt-4 rotate-45 md:mx-1 md:m-5 star"> <img src = {star} className = "w-full"/></div>
 
-            </section>
+            </div>
             </section>
             <Footer />
 
