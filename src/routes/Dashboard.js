@@ -99,7 +99,7 @@ function Dashboard (){
 
                         </div>
                         <div className=" w-32 h-32 text-center rounded-full green col-span-2 white abso4 ">
-                        <img src={whatsapp}  className ="mt-4 ml-6 w-20"alt= "dfam"></img>
+                        <img src={whatsapp}  className ="mt-4 ml-6 w-20" alt= "dfam"></img>
                             
                         </div>
 
@@ -111,7 +111,7 @@ function Dashboard (){
                             <h3 className = "font-serif">Consider this simplified example involving two threads, Thread 1 and Thread 2, accessing a shared variable :</h3>                    
     
                         </div>
-                        <div className = "hidden md:grid green m-2 p-2 rounded"><img src={handshake}  className =" text-white w-24"alt= "dfam"></img></div>
+                        <div className = "hidden md:grid green m-2 p-2 rounded"><img src={handshake} alt = "hand" className =" text-white w-24"alt= "dfam"></img></div>
                     </div>
                     <div className = "">
                     <div className ="bg-gray-700 p-3 mt-3 w-full rounded"><h3>Multi-Channel Support</h3></div>
@@ -123,7 +123,7 @@ function Dashboard (){
             </section>
             <div className="grid grid-cols-5  gap-12 mt-3 md:mt-12  p-3 md:p-8 pt-4">
                 <h2 className = "text-3xl md:text-6xl col-span-3 md:col-span-4"> <b>See What People Are <b className = "text-gre ">Saying About Us</b></b></h2>
-                <div className ="ml-0 mt-4 rotate-45 md:mx-1 md:m-5 star"> <img src = {star} className = "w-full"/></div>
+                <div className ="ml-0 mt-4 rotate-45 md:mx-1 md:m-5 star"> <img src = {star} alt = "star" className = "w-full"/></div>
 
             </div>
             </section>
