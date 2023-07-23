@@ -13,7 +13,7 @@ function Footer (){
                     <h4 className = "text-white text-3xl font-bold"><span className = "text-black text-3xl font-bold bg-transparent">community</span> and transform the way you collaborate</h4>
                     </div>
                     <div>
-                        <button className = "bg-black text-white p-3 m-4 col-span-1 btn">Get Started Now</button>
+                        <button className = "bg-black text-white p-3 m-4 mx-8 col-span-1 btn">Get Started Now</button>
                     </div>
                 
                 </div>
