@@ -34,7 +34,7 @@ function Dashboard (){
                         <div  className="text-gray-500  text-center grid grid-cols-5 gap-4 text-lg">
                             <div className=" col-span-4 col-start-1 w-full  b-2 rounded-tl-full rounded-bl-full rounded-br-full side1-col relative">
                             <div class="absolute bottom-0 left-7 right-4 md:left-10">
-                                    <img src={fam} alt= "dfgitm"></img>
+                                    <img src={fam} alt= "dfgi"></img>
                                 </div>
                             </div>
 
