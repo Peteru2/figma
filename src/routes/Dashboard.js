@@ -8,6 +8,8 @@ import phone from "../phone.png"
 import whatsapp from "../whatsapp.png"
 import messenger from "../message.png"
 import handshake from "../handshake.png"
+import star from "../star.png"
+
 import Footer from "./footer.js"
 
 
@@ -85,8 +87,7 @@ function Dashboard (){
                     <img src={phone} alt= "dfam" className = " w-full h-full " />
                          
                         <div className="w-32 h-32 border-2 rounded-full bg-white col-span-2 text-black text-center align-center justify-items-center justify-center white abso">
-                                {/* <i className = "fab fa-facebook text-black img-icon mt-12"></i>
-                                 */}
+                                
                                  
                                  <img src={messenger}  className ="mt-4 ml-7 w-16"alt= "dfam"></img>
                                    
@@ -120,7 +121,11 @@ function Dashboard (){
 
                 </div>
             </section>
-            
+            <section className="grid grid-cols-5  gap-12 mt-3 md:mt-12  p-3 md:p-8 pt-4">
+                <h2 className = "text-3xl md:text-6xl col-span-3 md:col-span-4"> <b>See What People Are <b className = "text-gre ">Saying About Us</b></b></h2>
+                <div className ="ml-0 mt-4 rotate-45 md:mx-1 md:m-5 star"> <img src = {star} className = "w-full"/></div>
+
+            </section>
             </section>
             <Footer />
 
