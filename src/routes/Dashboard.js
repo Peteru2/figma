@@ -17,8 +17,8 @@ function Dashboard (){
     return(
         <>
     <Navbar />
+    
     <section className = " container">
-        
             <section className= " grid  w-6/6 box  grid-cols-1 md:grid-cols-2 gap-12 mt-3 md:mt-12 p-3 md:p-8 pt-4">
                     <div className=" text-white A  mb-5">
                        <h1 className=" text-4xl md:text-7xl md:font-bold">Bring the Power of AI to your conversation</h1> 
@@ -45,7 +45,6 @@ function Dashboard (){
                                 <i className =" text-7xl fa fa-arrow-left  rotate-45 text-white   "></i>
                          </div>
                         </div>
-
                         
                         <div  className="text-gray-500  hidden md:grid mt-5 gap-4 grid-cols-5 text-lg">
                                 <div
@@ -111,7 +110,7 @@ function Dashboard (){
                             <h3 className = "font-serif">Consider this simplified example involving two threads, Thread 1 and Thread 2, accessing a shared variable :</h3>                    
     
                         </div>
-                        <div className = "hidden md:grid green m-2 p-2 rounded"><img src={handshake} alt = "hand" className =" text-white w-24"alt= "dfam"></img></div>
+                        <div className = "hidden md:grid green m-2 p-2 rounded"><img src={handshake} alt = "hand" className =" text-white w-24"></img></div>
                     </div>
                     <div className = "">
                     <div className ="bg-gray-700 p-3 mt-3 w-full rounded"><h3>Multi-Channel Support</h3></div>
@@ -127,6 +126,7 @@ function Dashboard (){
 
             </div>
             </section>
+            
             <Footer />
 
         </>
