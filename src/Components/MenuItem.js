@@ -2,7 +2,7 @@ const MenuItem =
         [
             {
                 title : "Blog",
-                url: "/",
+                url: "/Blog",
                 cName : "nav-links",
                 icon: "",
             },

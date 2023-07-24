@@ -50,6 +50,23 @@ position: relative
     top: 68%;
     right: 19%
     }
+    .phone-abso{
+        position: absolute;
+        /* top: 0 */
+        right: 20%;
+        bottom: 0px
+    }
+    .message-abso{
+        position: absolute;
+        left: 0px;
+        bottom :40px;
+    }
+    .message-w{
+            width: 200px
+    }
+    .blog-phone{
+        height: 500px
+    }
     .img-icon{
         width: 200px;
     }
