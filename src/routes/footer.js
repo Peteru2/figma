@@ -40,8 +40,11 @@ function Footer (){
 
                   </div>
                   <div className ="hidden md:grid">
-                    <h4 className = "pb-4 ">Join our newsletter</h4>
-                    <input type = "email" placeholder ="email" />
+                    <h4 className = "">Join our newsletter</h4>
+                    <input type = "email" placeholder ="Email" className="h-4 w-48 p-4 border-2 rounded bg-black text-black mt-0" />
+                    <div></div>
+                    <div></div>
+
                 </div>
             </div>
             </section>

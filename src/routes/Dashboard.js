@@ -81,6 +81,7 @@ function Dashboard (){
 
                     </div>
             </section>
+            
             <section className="grid grid-cols-1 md:grid-cols-2 box gap-12 mt-3 md:mt-12  p-3 md:p-8 pt-4">
                 <div className="text-center relate A">  
                     <img src={phone} alt= "dfam" className = " w-full h-full " />
