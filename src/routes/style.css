@@ -100,11 +100,11 @@ position: relative
             align-items: center;
             bottom: 0px;
             text-align: center;
-            left: 23%
+            left: 20%
     }
     .message-abso{
         position: absolute;
-        left: 14%;
+        left: 4%;
         bottom :40px;
     }
     }
